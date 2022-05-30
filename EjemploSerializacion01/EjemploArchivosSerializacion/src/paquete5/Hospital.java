@@ -15,4 +15,33 @@ public class Hospital implements Serializable{
     String nombre;
     int numeroCamas;
     double presupuesto;
+
+    public String obtenerNombre() {
+        return nombre;
+    }
+
+    public int obtenerNumeroCamas() {
+        return numeroCamas;
+    }
+
+    public double obtenerPresupuesto() {
+        return presupuesto;
+        
+        
+        
+        
+        
+    }
+
+    public void establecerNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void establecerNumeroCamas(int numeroCamas) {
+        this.numeroCamas = numeroCamas;
+    }
+
+    public void establecerPresupuesto(double presupuesto) {
+        this.presupuesto = presupuesto;
+    }
 }
